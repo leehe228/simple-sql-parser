@@ -3,4 +3,8 @@ project(simple_sql_parser)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(simple_sql_parser main.cpp)
+add_executable(simple_sql_parser main.cpp
+        SimpleSQLParser.h
+        SimpleSQLParser.cpp
+        MappingTableManager.h
+        MappingTableManager.cpp)
